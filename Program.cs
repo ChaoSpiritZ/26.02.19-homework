@@ -15,6 +15,7 @@ namespace _260219_homework
             Console.WriteLine("please insert a number from 1-10");
 
             int number = Convert.ToInt32(Console.ReadLine());
+
             printnumbersandtf(number);
 
             number = Convert.ToInt32(Console.ReadLine());
@@ -55,17 +56,8 @@ namespace _260219_homework
                 Console.WriteLine(number);
                 number++;
                 NextNumber(number);
-            }
-            
-            
+            }        
         }
-
-
-
-
-
-
-
 
         private static bool PrintNumber1to10(int number)
         {
@@ -73,8 +65,7 @@ namespace _260219_homework
             {
                 case 1:
                     Console.WriteLine("one");
-                    return true;
-                    
+                    return true;         
                 case 2:
                     Console.WriteLine("two");
                     return true;
